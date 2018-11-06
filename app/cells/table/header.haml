@@ -1,0 +1,5 @@
+%thead
+  %tr
+    -attributes.each do |header|
+      =content_tag :th, header.capitalize
+    %th{colspan: "3"}

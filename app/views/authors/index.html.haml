@@ -1,0 +1,5 @@
+%h1="#{@author.name}'s comments:"
+
+%p
+  -@comments.each do |comment|
+    =cell(:comment, comment)
